@@ -15,9 +15,9 @@ import java.awt.*;
 
 public class GameOfLife extends ApplicationAdapter {
 
-	private int width =10;
-	private int height = 10;
-	private int xOffset = 300;
+	private int width = 100;
+	private int height = 100;
+	private int xOffset = 0;
 
 	private OrthographicCamera camera;
 
@@ -26,8 +26,6 @@ public class GameOfLife extends ApplicationAdapter {
 
 	@Override
 	public void create () {
-
-
 
 		shape = new ShapeRenderer();
 
